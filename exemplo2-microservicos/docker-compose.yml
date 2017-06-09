@@ -1,0 +1,19 @@
+employee:
+  build: ./employee
+  ports:
+    - 5000:5000
+  # environment: 
+  #   - KEYMETRICS_SECRET=bznz2fq30x3ylcq
+  #   - KEYMETRICS_PUBLIC=sxm3fkwfhx0zmgh
+
+product:
+  build: ./product
+  ports:
+    - 4000:4000     
+  
+user:
+  build: ./user
+  ports:
+    - 3000:3000   
+    
+  
